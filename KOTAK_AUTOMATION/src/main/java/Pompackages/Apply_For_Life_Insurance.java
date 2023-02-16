@@ -17,7 +17,8 @@ public class Apply_For_Life_Insurance {
 	
 	//variables
 	
-	@FindBy (xpath = "(//div[@class='search-result-box clearfix']//p)[1]")
+	//@FindBy (xpath = "(//div[@class='search-result-box clearfix']//p)[1]")
+	@FindBy (xpath = "(//div[@class='search-result-box clearfix']//p)[1]123")
 	private WebElement LifeInsuranceText;
 		
 	@FindBy (xpath = "//input[@name='name']")
