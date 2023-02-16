@@ -21,7 +21,7 @@ public class Apply_For_Life_Insurance {
 	@FindBy (xpath = "(//div[@class='search-result-box clearfix']//p)[1]123")
 	private WebElement LifeInsuranceText;
 		
-	@FindBy (xpath = "//input[@name='name']")
+	//@FindBy (xpath = "//input[@name='name']")
 	private WebElement Name;
 	
 	@FindBy (xpath = "//input[@name='mobilenumber']")
